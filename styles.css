@@ -1,0 +1,28 @@
+body {
+    background-color: antiquewhite;
+}
+
+.list {
+    display: flex;
+    float-wrap: wrap;
+    flex-flow: wrap;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 250px;
+    border: 1px solid;
+    padding: 12px;
+    margin: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover{
+    transform: translate(5px, -5px);
+    box-shadow: -10px 10px 0px rgba(0,0,0);
+}
+
+h2 {
+    margin-bottom: auto;
+}
